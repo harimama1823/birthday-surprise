@@ -1,0 +1,73 @@
+.birthday-page {
+    padding: 30px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    width: 70%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.welcome-message {
+  font-size: 3rem;
+  color: #ff6347;
+  margin-bottom: 20px;
+  animation: fadeIn 3s ease-in-out, fadeOut 2s ease-in-out 3s; /* Fade in and out */
+}
+
+.love-message {
+  font-size: 1.5rem;
+  color: #000;
+  line-height: 1.8;
+  animation: fadeIn 4s ease-in-out;
+  margin-bottom: 30px;
+}
+
+/* Fade-in and fade-out effect */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .birthday-page {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .welcome-message {
+    font-size: 2.5rem;
+  }
+
+  .love-message {
+    font-size: 1.2rem;
+  }
+}
+
+.fireworks-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 9999;
+}
+  
