@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/birthday-surprise/static/css/main.00f956bf.css",
+    "main.js": "/birthday-surprise/static/js/main.6e252aea.js",
+    "static/js/453.7f4f9716.chunk.js": "/birthday-surprise/static/js/453.7f4f9716.chunk.js",
+    "static/media/pic2.jpg": "/birthday-surprise/static/media/pic2.5fd54868cc7c0d33bdc0.jpg",
+    "index.html": "/birthday-surprise/index.html",
+    "main.00f956bf.css.map": "/birthday-surprise/static/css/main.00f956bf.css.map",
+    "main.6e252aea.js.map": "/birthday-surprise/static/js/main.6e252aea.js.map",
+    "453.7f4f9716.chunk.js.map": "/birthday-surprise/static/js/453.7f4f9716.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.00f956bf.css",
+    "static/js/main.6e252aea.js"
+  ]
+}
